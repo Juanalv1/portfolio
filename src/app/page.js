@@ -14,7 +14,7 @@ export default function Home() {
       description: 'Download Free Games',
       img: 'https://i.postimg.cc/ydd7RqBw/piratajuegos-com-min.png',
       technologies: 'TailwindCSS, Next.js, Node.js, Express.js, ',
-      link: 'https://www.google.com',
+      link: 'https://piratajuegos.com',
     },
 
   ]
