@@ -19,7 +19,7 @@ export default function Home() {
 
   ]
   return (
-    <main className="w-full h-full text-white">
+    <main className="w-full h-full text-white ">
       <Navbar />
       <section className='px-4 pt-10 py-2'>
         <h1 className='mr-8 text-3xl mt-8'>
