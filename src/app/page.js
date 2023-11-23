@@ -6,8 +6,11 @@ import SkillsList from './components/SkillsList'
 import ProjectsList from './components/ProjectsList'
 import Contact from './components/Contact'
 
-
+export const metadata = {
+  title: 'Portfolio',
+}
 export default function Home() {
+  
   const Projects = [
     {
       name: 'Piratajuegos',
