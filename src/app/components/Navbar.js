@@ -16,14 +16,14 @@ const Navbar = () => {
 
   return (
     <div className='fixed top-0 bg-background z-10 w-full px-2 py-3 border-b border-primary flex justify-center items-center gap-x-8 text-sm p'>
+       <a href='#skills'>
+        <div>
+          <ColoredHash />Skills
+        </div>
+      </a>
       <a href='#projects'>
         <div>
           <ColoredHash />Projects
-        </div>
-      </a>
-      <a href='#skills'>
-        <div>
-          <ColoredHash />Skills
         </div>
       </a>
       <a href='#contact'>
