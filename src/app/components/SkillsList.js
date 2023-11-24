@@ -13,7 +13,7 @@ import { FaGithub } from "react-icons/fa";
 
 const SkillsList = () => {
   return (
-    <div className='mt-6 flex flex-wrap gap-x-6 gap-y-8 justify-around'>
+    <div className='mt-6 flex flex-wrap gap-x-6 gap-y-8 justify-around md:pt-12'>
       <div className=' items-center flex flex-col w-[84px]'>
         <FaHtml5 className='text-5xl text-orange-600'/>
         <h4 className='mt-1 text-gray-300'>

@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { IoIosMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5"
 import ColoredHash from './ColoredHash';
+import ColoredLine from './ColoredLine';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -15,22 +16,25 @@ const Navbar = () => {
   }
 
   return (
-    <div className='fixed top-0 bg-background z-10 w-full px-2 py-3 border-b border-primary flex justify-center items-center gap-x-8 text-sm p'>
-       <a href='#skills'>
-        <div>
+    <div className='fixed top-0 bg-background z-10 w-full px-2 py-3 flex  gap-x-8 text-sm items-center'>
+      <hr className='border-primary w-full ml-4 hidden md:flex' />
+      <div className='flex justify-center items-center gap-x-4 mx-auto md:gap-x-8 text-lg md:pr-4 lg:pr-6 lg:gap-x-12 md:py-1'>
+        <div className='hover:text-primary'>
+        <a href='#skills' className='flex'>
           <ColoredHash />Skills
+          </a>
         </div>
-      </a>
-      <a href='#projects'>
-        <div>
+        <div className='hover:text-primary'>
+        <a href='#projects' className='flex'>
           <ColoredHash />Projects
+          </a>
         </div>
-      </a>
-      <a href='#contact'>
-        <div>
-          <ColoredHash />Contact
+        <div className='hover:text-primary'>
+          <a href='#contact' className='flex'>
+            <ColoredHash />Contact
+          </a>
         </div>
-      </a>
+      </div>  
     </div>
   )
 }
