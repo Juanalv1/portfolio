@@ -57,7 +57,7 @@ const SkillsList = () => {
         </h4>
       </div>
       <div className='justify-center items-center flex flex-col w-[84px] text-gray-300'>
-        <SiPostgresql className='text-5xl text-cyan-400'/>
+        <SiPostgresql className='text-5xl text-blue-500'/>
         <h4 className='mt-1'>
           PostgreSQL
         </h4>
