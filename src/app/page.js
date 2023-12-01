@@ -19,6 +19,13 @@ export default function Home() {
       technologies: 'TailwindCSS, Next.js, Node.js, Express.js, ',
       link: 'https://piratajuegos.com',
     },
+    {
+      name: 'Authentication App',
+      description: 'Authentication with Google/Github/Credentials and profile update',
+      img: 'https://i.postimg.cc/mk13Mmd5/auth-app.png',
+      technologies: 'TailwindCSS, Next.js, NextAuth, Prisma, PostgreSQL ',
+      link: 'https://authentication-d9is70zxx-juanalv1.vercel.app/',
+    },
 
   ]
   return (
