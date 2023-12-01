@@ -10,6 +10,8 @@ import { SiPostgresql } from "react-icons/si";
 import { FcLinux } from "react-icons/fc";
 import { IoIosGitBranch } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
+import { SiPrisma } from "react-icons/si";
 
 const SkillsList = () => {
   return (
@@ -45,6 +47,12 @@ const SkillsList = () => {
         </h4>
       </div>
       <div className='justify-center items-center flex flex-col w-[84px] text-gray-300'>
+        <SiTailwindcss className='text-5xl text-blue-400'/>
+        <h4 className='mt-1'>
+          TailwindCSS
+        </h4>
+      </div>
+      <div className='justify-center items-center flex flex-col w-[84px] text-gray-300'>
         <FaNodeJs className='text-5xl text-green-500'/>
         <h4 className='mt-1'>
           Node.js
@@ -60,6 +68,12 @@ const SkillsList = () => {
         <SiPostgresql className='text-5xl text-blue-500'/>
         <h4 className='mt-1'>
           PostgreSQL
+        </h4>
+      </div>
+      <div className='justify-center items-center flex flex-col w-[84px] text-gray-300'>
+        <SiPrisma className='text-5xl'/>
+        <h4 className='mt-1'>
+          Prisma
         </h4>
       </div>
       <div className='justify-center items-center flex flex-col w-[84px] text-gray-300'>
