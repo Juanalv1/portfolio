@@ -5,6 +5,8 @@ import ColoredLine from './components/ColoredLine'
 import SkillsList from './components/SkillsList'
 import ProjectsList from './components/ProjectsList'
 import Contact from './components/Contact'
+import { FaGithub } from "react-icons/fa";
+import { TbDeviceMobileMessage } from "react-icons/tb";
 
 export const metadata = {
   title: 'Portfolio',
@@ -21,9 +23,9 @@ export default function Home() {
     },
     {
       name: 'Authentication App',
-      description: 'Authentication with Google/Github/Credentials and profile update',
+      description: 'Multiple authentication methods and profile update',
       img: 'https://i.postimg.cc/mk13Mmd5/auth-app.png',
-      technologies: 'TailwindCSS, Next.js, NextAuth, Prisma, PostgreSQL ',
+      technologies: 'TailwindCSS, Next.js, Prisma, PostgreSQL ',
       link: 'https://authentication-d9is70zxx-juanalv1.vercel.app/',
     },
 
@@ -34,12 +36,24 @@ export default function Home() {
       <section className='px-4 pt-10 py-2'>
         <div className='flex md:pt-10 md:px-8 lg:px-16'>
           <div className='md:w-2/3 md:mt-6 md:pr-12'>
-            <h1 className='mr-8 text-3xl mt-8'>
-            Juan Alvarado, <span className='text-primary'>Full Stack Developer</span>
-            </h1>
-            <h2 className='text-gray-400 mt-6'>
-              Building responsive web applications adapted to your needs
-            </h2>
+            <div>
+              <h1 className='mr-8 text-3xl mt-8'>
+              Juan Alvarado, <span className='text-primary'>Full Stack Developer</span>
+              </h1>
+              <h2 className='text-gray-400 mt-6'>
+                Building responsive web applications adapted to your needs
+              </h2>
+            </div>
+            <div className='flex flex-col md:flex-row gap-y-4 w-full md:h-1/3 h-1/4 py-2 mt-4 items-center md:py-0 md:mt-8 px-8 gap-x-8 md:pl-20'>
+             <a href='https://github.com/Juanalv1' >
+              <button className='border-primary hover:bg-primary hover:text-stone-800 border rounded px-6 py-2 text-semibold text-lg  flex  items-center justify-around gap-x-3'>
+              <FaGithub className='text-2xl hover:text-primary'/> Github</button>
+            </a>
+            <a href='#contact' >
+              <button className='border-primary hover:bg-primary hover:text-stone-800 border rounded px-6 py-2 text-semibold text-lg  flex  items-center justify-around gap-x-3'>
+              <TbDeviceMobileMessage className='text-2xl hover:text-primary'/>Contact</button>
+            </a>
+            </div>
           </div>
           <div className='hidden md:flex w-1/3'>
             <img src='./lading-image.svg' />
@@ -47,7 +61,7 @@ export default function Home() {
 
         </div>
         <div>
-          <div className='mt-8 px-2 flex items-center gap-x-12 lg:px-12' id='skills'>
+          <div className='mt-8 md:mt-2 px-2 flex items-center gap-x-12 lg:px-12' id='skills'>
             <div className='hidden lg:flex w-1/3'>
               <img src='./skills-image.svg' />
             </div>
