@@ -15,12 +15,19 @@ export default function Home() {
   
   const Projects = [
     {
-      name: 'Piratajuegos',
-      description: 'Download Free Games',
-      img: 'https://i.postimg.cc/ydd7RqBw/piratajuegos-com-min.png',
-      technologies: 'TailwindCSS, Next.js, Node.js, Express.js, ',
-      link: 'https://piratajuegos.com',
+      name: 'Landing Page',
+      description:'Landing page design',
+      img: 'https://i.ibb.co/fn46fxj/landing.png',
+      technologies: 'Next.js, TailwindCSS',
+      link:'https://landing-page-9vwjybuht-juanalv1.vercel.app/'
     },
+    // {
+    //   name: 'Piratajuegos',
+    //   description: 'Download Free Games',
+    //   img: 'https://i.postimg.cc/ydd7RqBw/piratajuegos-com-min.png',
+    //   technologies: 'TailwindCSS, Next.js, Node.js, Express.js, ',
+    //   link: 'https://piratajuegos.com',
+    // },
     {
       name: 'Authentication App',
       description: 'Multiple authentication methods and profile update',
