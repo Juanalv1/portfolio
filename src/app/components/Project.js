@@ -3,7 +3,7 @@ import React from 'react'
 const Project = ({image, name, description, technologies, link}) => {
   return (
     <a href={link} className='mt-8 '>
-      <div className='border-gray-400 border-2 w-72 bg-stone-800 h-[340px] hover:bg-gray-800'>
+      <div className='border-gray-400 border-2 w-72 bg-[#2f3641] h-[340px] hover:bg-[#2b3649]'>
         <div className='w-full h-[170px]'>
           <img src={image} className='w-full h-full '/>
         </div>

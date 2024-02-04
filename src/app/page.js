@@ -21,13 +21,13 @@ export default function Home() {
       technologies: 'Next.js, TailwindCSS',
       link:'https://landing-page-9vwjybuht-juanalv1.vercel.app/'
     },
-    // {
-    //   name: 'Piratajuegos',
-    //   description: 'Download Free Games',
-    //   img: 'https://i.postimg.cc/ydd7RqBw/piratajuegos-com-min.png',
-    //   technologies: 'TailwindCSS, Next.js, Node.js, Express.js, ',
-    //   link: 'https://piratajuegos.com',
-    // },
+    {
+      name: 'Monito - Pet Store',
+      description: 'Pet Store design',
+      img: 'https://i.ibb.co/xCpBQW0/localhost-3000.png',
+      technologies: 'TailwindCSS, Next.js',
+      link: 'https://monito-xi.vercel.app/',
+    },
     {
       name: 'Authentication App',
       description: 'Multiple authentication methods and profile update',
