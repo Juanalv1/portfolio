@@ -35,6 +35,13 @@ export default function Home() {
       technologies: 'TailwindCSS, Next.js, Prisma, PostgreSQL ',
       link: 'https://authentication-d9is70zxx-juanalv1.vercel.app/',
     },
+    {
+      name: 'Epictetus - Blog',
+      description: 'Sample minimalist Blog',
+      img: 'https://i.ibb.co/17V6MBB/blog-tau-eight-30-vercel-app-1.png',
+      technologies: 'TailwindCSS, Next.js, ',
+      link: 'https://blog-tau-eight-30.vercel.app/',
+    },
 
   ]
   return (
