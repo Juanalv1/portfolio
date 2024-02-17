@@ -12,7 +12,7 @@ export const metadata = {
   title: 'Portfolio',
 }
 export default function Home() {
-  
+ 
   const Projects = [
     {
       name: 'Landing Page',
@@ -20,6 +20,13 @@ export default function Home() {
       img: 'https://i.ibb.co/fn46fxj/landing.png',
       technologies: 'Next.js, TailwindCSS',
       link:'https://landing-page-9vwjybuht-juanalv1.vercel.app/'
+    },
+    {
+      name: 'Catwiki',
+      description:'Breeds wiki for cats',
+      img: 'https://i.ibb.co/3F2PYX2/catwiki-rust-vercel-app.png',
+      technologies: 'Next.js, express.js, Node.js, Prisma, TailwindCSS',
+      link:'https://catwiki-rust.vercel.app/'
     },
     {
       name: 'Monito - Pet Store',
