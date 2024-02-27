@@ -15,6 +15,13 @@ export default function Home() {
  
   const Projects = [
     {
+      name: 'Furniro -  Furniture Marketplace',
+      description: 'Furniture Commerce',
+      img: 'https://i.ibb.co/LpR5zs1/furniro-n.png',
+      technologies: 'Next.js, TailwindCSS, Strapi',
+      link: 'https://furniro-phi.vercel.app/',
+    }
+    {
       name: 'Landing Page',
       description:'Landing page design',
       img: 'https://i.ibb.co/fn46fxj/landing.png',
@@ -35,15 +42,15 @@ export default function Home() {
       technologies: 'TailwindCSS, Next.js',
       link: 'https://monito-xi.vercel.app/',
     },
+    // {
+    //   name: 'Epictetus - Blog',
+    //   description: 'Sample minimalist Blog',
+    //   img: 'https://i.ibb.co/17V6MBB/blog-tau-eight-30-vercel-app-1.png',
+    //   technologies: 'TailwindCSS, Next.js, ',
+    //   link: 'https://blog-tau-eight-30.vercel.app/',
+    // },
     {
-      name: 'Epictetus - Blog',
-      description: 'Sample minimalist Blog',
-      img: 'https://i.ibb.co/17V6MBB/blog-tau-eight-30-vercel-app-1.png',
-      technologies: 'TailwindCSS, Next.js, ',
-      link: 'https://blog-tau-eight-30.vercel.app/',
-    },
-    {
-      name: 'Authentication App',
+      name: 'Authentication Challenge',
       description: 'Authentication Challenge with profile update',
       img: 'https://i.postimg.cc/mk13Mmd5/auth-app.png',
       technologies: 'TailwindCSS, Next.js, Prisma, PostgreSQL ',
