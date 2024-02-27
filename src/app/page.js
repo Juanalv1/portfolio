@@ -20,7 +20,7 @@ export default function Home() {
       img: 'https://i.ibb.co/LpR5zs1/furniro-n.png',
       technologies: 'Next.js, TailwindCSS, Strapi',
       link: 'https://furniro-phi.vercel.app/',
-    }
+    },
     {
       name: 'Landing Page',
       description:'Landing page design',
