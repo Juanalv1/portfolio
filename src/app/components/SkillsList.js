@@ -16,24 +16,6 @@ import { SiPrisma } from "react-icons/si";
 const SkillsList = () => {
   return (
     <div className='mt-6 flex flex-wrap gap-x-6 gap-y-8 justify-around md:pt-12'>
-      <div className=' items-center flex flex-col w-[84px]'>
-        <FaHtml5 className='text-5xl text-orange-600'/>
-        <h4 className='mt-1 text-gray-300'>
-          HTML
-        </h4>
-      </div>
-      <div className='justify-center items-center flex flex-col w-[84px] text-gray-300'>
-        <IoLogoCss3 className='text-5xl text-blue-400'/>
-        <h4 className='mt-1'>
-          CSS
-        </h4>
-      </div>
-      <div className='justify-center items-center flex flex-col w-[84px] text-gray-300'>
-        <IoLogoJavascript className='text-5xl text-yellow-400'/>
-        <h4 className='mt-1'>
-          JavaScript
-        </h4>
-      </div>
       <div className='justify-center items-center flex flex-col w-[84px] text-gray-300'>
         <FaReact className='text-5xl text-cyan-500'/>
         <h4 className='mt-1'>
@@ -74,12 +56,6 @@ const SkillsList = () => {
         <SiPrisma className='text-5xl'/>
         <h4 className='mt-1'>
           Prisma
-        </h4>
-      </div>
-      <div className='justify-center items-center flex flex-col w-[84px] text-gray-300'>
-        <FcLinux className='text-5xl '/>
-        <h4 className='mt-1'>
-          Linux
         </h4>
       </div>
       <div className='justify-center items-center flex flex-col w-[84px] text-gray-300'>
