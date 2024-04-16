@@ -12,8 +12,15 @@ export const metadata = {
   title: 'Portfolio',
 }
 export default function Home() {
- 
+
   const Projects = [
+    {
+      name: 'Nk construction LLC',
+      description: 'freelance project for Nk construction LLC, a company dedicated to concretre construction services',
+      img: 'https://i.postimg.cc/gjvZYXjz/nkconstructionllc-com-2.png',
+      technologies: 'Next.js, TailwindCSS',
+      link: 'https://Nkconstructionllc.com/',
+    },
     {
       name: 'Furniro -  Furniture Marketplace',
       description: 'Furniture Commerce',
@@ -41,20 +48,6 @@ export default function Home() {
       img: 'https://i.ibb.co/xCpBQW0/localhost-3000.png',
       technologies: 'TailwindCSS, Next.js',
       link: 'https://monito-xi.vercel.app/',
-    },
-    // {
-    //   name: 'Epictetus - Blog',
-    //   description: 'Sample minimalist Blog',
-    //   img: 'https://i.ibb.co/17V6MBB/blog-tau-eight-30-vercel-app-1.png',
-    //   technologies: 'TailwindCSS, Next.js, ',
-    //   link: 'https://blog-tau-eight-30.vercel.app/',
-    // },
-    {
-      name: 'Authentication Challenge',
-      description: 'Authentication Challenge with profile update',
-      img: 'https://i.postimg.cc/mk13Mmd5/auth-app.png',
-      technologies: 'TailwindCSS, Next.js, Prisma, PostgreSQL ',
-      link: 'https://authentication-d9is70zxx-juanalv1.vercel.app/',
     },
 
   ]
