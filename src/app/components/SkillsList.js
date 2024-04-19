@@ -15,7 +15,7 @@ import { SiPrisma } from "react-icons/si";
 
 const SkillsList = () => {
   return (
-    <div className='mt-6 flex flex-wrap gap-x-6 gap-y-8 justify-around md:pt-12'>
+    <div className='mt-6 flex flex-wrap gap-x-6 gap-y-8 justify-around md:pt-12 xl:w-[565px] mx-auto'>
       <div className='justify-center items-center flex flex-col w-[84px] text-gray-300'>
         <FaReact className='text-5xl text-cyan-500'/>
         <h4 className='mt-1'>
@@ -73,5 +73,5 @@ const SkillsList = () => {
    </div>
   )
 }
-SiPostgresql
+
 export default SkillsList
