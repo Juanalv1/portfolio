@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => {
     if (!isMenuOpen) {
       setIsMenuOpen(true)
-    }else {
+    } else {
       setIsMenuOpen(false)
     }
   }
@@ -20,13 +20,18 @@ const Navbar = () => {
       <hr className='border-primary w-full ml-4 hidden md:flex' />
       <div className='flex justify-center items-center gap-x-4 mx-auto md:gap-x-8 text-base md:pr-4 lg:pr-6 lg:gap-x-12 md:py-1'>
         <div className='hover:text-primary'>
-        <a href='#skills' className='flex'>
-          <ColoredHash />Skills
+          <a href='#hackaton' className='flex'>
+            <ColoredHash />Hackaton
           </a>
         </div>
         <div className='hover:text-primary'>
-        <a href='#projects' className='flex'>
-          <ColoredHash />Projects
+          <a href='#skills' className='flex'>
+            <ColoredHash />Skills
+          </a>
+        </div>
+        <div className='hover:text-primary'>
+          <a href='#projects' className='flex'>
+            <ColoredHash />Projects
           </a>
         </div>
         <div className='hover:text-primary'>
@@ -34,7 +39,7 @@ const Navbar = () => {
             <ColoredHash />Contact
           </a>
         </div>
-      </div>  
+      </div>
     </div>
   )
 }
