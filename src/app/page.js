@@ -79,12 +79,12 @@ export default function Home() {
             <h3 className='flex items-center md:text-lg md:pr-20 lg:pr-24' >
               <ColoredHash />hackaton <ColoredLine color={'#00D1FF'} />
             </h3>
-            <div className='hidden lg:flex mt-3 w-full justify-between'>
+            <div className=' lg:flex mt-3 w-full justify-between'>
               <div className=' text-gray-400 flex justify-center items-center text-center  flex-col'>
-                <p className='px-16 text-xl text-white'>Ganador de la primera hackaton <a className='text-green-600 underline' href='https://www.corpoeureka.com/'>Corpoeureka</a> 2025 en la categoría de <span className='text-primary'>Front-end</span></p>
-                <p className='font-normal mt-4'>Actualmente trabajando como desarrollador novel en la misma</p>
+                <p className='md:px-16 text-xl text-white'>Ganador de la primera hackaton <a className='text-green-600 underline' href='https://www.corpoeureka.com/'>Corpoeureka</a> 2025 en la categoría de <span className='text-primary'>Front-end</span></p>
+                <p className='font-normal mt-4 py-4 lg:mx-auto lg:px-8'>Actualmente trabajando como desarrollador novel en la misma</p>
               </div>
-              <img src='https://i.postimg.cc/q7mR9Dcj/photo-2025-05-30-17-54-43.jpg' className='rounded w-1/3 mr-16' />
+              <img src='https://i.postimg.cc/q7mR9Dcj/photo-2025-05-30-17-54-43.jpg' className='rounded lg:w-1/3 mr-16' />
             </div>
           </div>
           <div className='mt-8 md:mt-2 px-2 flex items-center gap-x-12 lg:px-12' id='skills'>
