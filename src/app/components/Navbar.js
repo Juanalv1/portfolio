@@ -16,9 +16,9 @@ const Navbar = () => {
   }
 
   return (
-    <div className='fixed top-0 bg-background z-10 w-full px-2 py-3 flex  gap-x-8 text-sm items-center shadow-lg'>
+    <div className='fixed top-0 bg-background z-10 w-full px-2 py-3 flex  gap-x-5 text-sm items-center shadow-lg'>
       <hr className='border-primary w-full ml-4 hidden md:flex' />
-      <div className='flex justify-center items-center gap-x-4 mx-auto md:gap-x-8 text-base md:pr-4 lg:pr-6 lg:gap-x-12 md:py-1'>
+      <div className='flex justify-center items-center gap-x-2 w-full sm:gap-x-8 text-base md:pr-4 lg:pr-6 lg:gap-x-12 md:py-1'>
         <div className='hover:text-primary'>
           <a href='#hackaton' className='flex'>
             <ColoredHash />Hackaton
