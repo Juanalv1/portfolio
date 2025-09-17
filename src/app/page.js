@@ -42,6 +42,13 @@ export default function Home() {
       technologies: 'TailwindCSS, Next.js',
       link: 'https://monito-xi.vercel.app/',
     },
+    {
+      name: 'Viajes Magios - Demo',
+      description: 'Demo sencilla para una agencia de viajes',
+      img: 'https://i.postimg.cc/Wbwd9gDp/travel-dream-weaver-85-lovable-app.png',
+      technologies: 'TailwindCSS, Next.js',
+      link: 'https://travel-dream-weaver-85.lovable.app/',
+    },
 
   ]
   return (
