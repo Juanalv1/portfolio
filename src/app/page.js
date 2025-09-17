@@ -45,7 +45,7 @@ export default function Home() {
     {
       name: 'Viajes Magicos - Demo',
       description: 'Demo sencilla para una agencia de viajes',
-      img: 'https://i.postimg.cc/Wbwd9gDp/travel-dream-weaver-85-lovable-app.png',
+      img: 'https://i.postimg.cc/qvT4Fvhk/travel-dream-weaver-85-lovable-app-1.png',
       technologies: 'TailwindCSS, Next.js',
       link: 'https://travel-dream-weaver-85.lovable.app/',
     },
