@@ -43,7 +43,7 @@ export default function Home() {
       link: 'https://monito-xi.vercel.app/',
     },
     {
-      name: 'Viajes Magios - Demo',
+      name: 'Viajes Magicos - Demo',
       description: 'Demo sencilla para una agencia de viajes',
       img: 'https://i.postimg.cc/Wbwd9gDp/travel-dream-weaver-85-lovable-app.png',
       technologies: 'TailwindCSS, Next.js',
