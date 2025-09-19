@@ -1,125 +1,121 @@
-import Image from 'next/image'
 import Navbar from './components/Navbar'
 import ColoredHash from './components/ColoredHash'
 import ColoredLine from './components/ColoredLine'
-import SkillsList from './components/SkillsList'
 import ProjectsList from './components/ProjectsList'
 import Contact from './components/Contact'
-import { FaGithub } from "react-icons/fa";
-import { TbDeviceMobileMessage } from "react-icons/tb";
+import Footer from './components/Footer'
 
 export const metadata = {
-  title: 'Portfolio',
+  title: 'Juan Alvarado | Desarrollo Web y Sistemas',
 }
+
 export default function Home() {
 
   const Projects = [
     {
-      name: 'Furniro -  Furniture Marketplace',
-      description: 'Furniture Commerce',
+      name: 'FitCoach - Demo',
+      description: 'Sitio demo para entrenador personal con secciones interactivas.',
+      img: 'https://i.postimg.cc/26xvXsfJ/fitcoachpro-lovable-app.png',
+      technologies: 'Next.js, TailwindCSS',
+      link: 'https://fitcoachpro.lovable.app/',
+    },
+    {
+      name: 'Furniro - Tienda de Muebles',
+      description: 'E-commerce optimizado para vender muebles en línea. Incluye carrito de compras y panel de administración.',
       img: 'https://i.ibb.co/LpR5zs1/furniro-n.png',
       technologies: 'Next.js, TailwindCSS, Strapi',
       link: 'https://furniro-phi.vercel.app/',
     },
     {
       name: 'Landing Page',
-      description: 'Landing page design',
+      description: 'Página de aterrizaje moderna y diseñada para captar clientes.',
       img: 'https://i.ibb.co/fn46fxj/landing.png',
       technologies: 'Next.js, TailwindCSS',
       link: 'https://landing-page-9vwjybuht-juanalv1.vercel.app/'
     },
     {
-      name: 'Catwiki',
-      description: 'Breeds wiki for cats',
-      img: 'https://i.ibb.co/3F2PYX2/catwiki-rust-vercel-app.png',
-      technologies: 'Next.js, express.js, Node.js, Prisma, TailwindCSS',
-      link: 'https://catwiki-rust.vercel.app/'
-    },
-    {
-      name: 'Monito - Pet Store',
-      description: 'Pet Store design',
+      name: 'Monito - Tienda de Mascotas',
+      description: 'Demo de tienda online para mascotas con diseño atractivo y responsivo.',
       img: 'https://i.ibb.co/xCpBQW0/localhost-3000.png',
-      technologies: 'TailwindCSS, Next.js',
+      technologies: 'Next.js, TailwindCSS',
       link: 'https://monito-xi.vercel.app/',
     },
     {
-      name: 'Viajes Magicos - Demo',
-      description: 'Demo sencilla para una agencia de viajes',
+      name: 'Viajes Mágicos - Demo',
+      description: 'Sitio demo para agencia de viajes con secciones interactivas.',
       img: 'https://i.postimg.cc/qvT4Fvhk/travel-dream-weaver-85-lovable-app-1.png',
-      technologies: 'TailwindCSS, Next.js',
+      technologies: 'Next.js, TailwindCSS',
       link: 'https://travel-dream-weaver-85.lovable.app/',
     },
-
   ]
+
   return (
-    <main className="w-full h-full text-white ">
+    <main className="w-full h-full text-white">
       <Navbar />
-      <section className='px-4 pt-10 py-2'>
-        <div className='flex md:pt-10 md:px-8 lg:px-16'>
-          <div className='md:w-2/3 md:mt-6 md:pr-12'>
-            <div>
-              <h1 className='mr-8 text-3xl mt-8'>
-                Juan Alvarado, <span className='text-primary'>Full Stack Developer</span>
-              </h1>
-              <h2 className='text-gray-400 mt-6'>
-                Building responsive web applications adapted to your needs
-              </h2>
-            </div>
-            <div className='flex flex-col md:flex-row gap-y-4 w-full md:h-1/3 h-1/4 py-2 mt-4 items-center md:py-0 md:mt-8 px-8 gap-x-8 md:pl-20'>
-              <a href='https://github.com/Juanalv1' >
-                <button className='border-primary hover:bg-primary hover:text-stone-800 border rounded px-6 py-2 text-semibold text-lg  flex  items-center justify-around gap-x-3'>
-                  <FaGithub className='text-2xl hover:text-primary' /> Github</button>
-              </a>
-              <a href='#contact' >
-                <button className='border-primary hover:bg-primary hover:text-stone-800 border rounded px-6 py-2 text-semibold text-lg  flex  items-center justify-around gap-x-3'>
-                  <TbDeviceMobileMessage className='text-2xl hover:text-primary' />Contact</button>
-              </a>
-            </div>
-          </div>
-          <div className='hidden md:flex w-1/3'>
-            <img src='./lading-image.svg' />
-          </div>
 
+      {/* HERO */}
+      <section className="px-4 pt-24 md:pt-32 pb-12 text-center">
+        <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+          🚀 Impulsa tu negocio con una <span className="text-primary">página web profesional</span>
+        </h1>
+        <h2 className="text-gray-400 mt-6 max-w-2xl mx-auto text-lg md:text-xl">
+          Desarrollo sitios web modernos, rápidos y personalizados para emprendedores y empresas que quieren vender más y automatizar su negocio.
+        </h2>
+        <div className="flex flex-col md:flex-row gap-4 justify-center mt-8">
+          <a href="#contact">
+            <button className="bg-primary text-stone-900 rounded px-8 py-3 text-lg font-semibold shadow hover:scale-105 transition">
+              Solicitar un proyecto
+            </button>
+          </a>
+          <a href="https://github.com/Juanalv1">
+            <button className="border border-primary rounded px-8 py-3 text-lg font-semibold hover:bg-primary hover:text-stone-900 transition">
+              Ver portafolio en GitHub
+            </button>
+          </a>
         </div>
-        <div>
-          <div className='mt-16 px-2 md:px-8 lg:px-16 flex flex-col align-items-center' id='hackaton'>
-            <h3 className='flex items-center md:text-lg md:pr-20 lg:pr-24' >
-              <ColoredHash />hackaton <ColoredLine color={'#00D1FF'} />
-            </h3>
-            <div className=' lg:flex mt-3 w-full justify-between'>
-              <div className=' text-gray-400 flex justify-center items-center text-center  flex-col'>
-                <p className='md:px-16 text-xl text-white'>Ganador de la primera hackaton <a className='text-green-600 underline' href='https://www.corpoeureka.com/'>Corpoeureka</a> 2025 en la categoría de <span className='text-primary'>Front-end</span></p>
-                <p className='font-normal mt-4 py-4 lg:mx-auto lg:px-8'>Actualmente trabajando como desarrollador novel en la misma</p>
-              </div>
-              <img src='https://i.postimg.cc/qvzQ0k0m/hackaton.png' className='rounded lg:w-1/3 mr-16' />
-            </div>
-          </div>
-          <div className='mt-8 md:mt-2 px-2 flex items-center gap-x-12 lg:px-12' id='skills'>
-            <div className='hidden lg:flex w-1/3'>
-              <img src='./skills-image.svg' />
-            </div>
-            <div className='w-full lg:w-2/3'>
-              <h3 className='flex items-center md:text-lg' >
-                <ColoredHash />skills <ColoredLine color={'#00D1FF'} />
-              </h3>
-              <SkillsList />
-            </div>
-          </div>
-          <div className='mt-16 px-2 md:px-8 lg:px-16 ' id='projects'>
-            <h3 className='flex items-center md:text-lg md:pr-20 lg:pr-24' >
-              <ColoredHash />projects <ColoredLine color={'#00D1FF'} />
-            </h3>
-            <ProjectsList list={Projects} />
-          </div>
-        </div>
-        <div className='mt-16 px-2 ' id='contact'>
-          <h3 className='flex items-center ' >
-            <ColoredHash />contact <ColoredLine color={'#00D1FF'} />
-          </h3>
-          <Contact />
-        </div>
-
       </section>
+
+      {/* SERVICIOS */}
+      <section id="services" className="bg-[#202630] px-6 md:px-16 py-16">
+        <h3 className="flex items-center text-xl md:text-2xl mb-10">
+          <ColoredHash />Servicios <ColoredLine color={'#00D1FF'} />
+        </h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="bg-[#2f3641] p-6 rounded-xl shadow hover:shadow-lg transition">
+            <h4 className="text-xl font-semibold mb-2">Diseño de Páginas Web</h4>
+            <p className="text-gray-300">Landing pages modernas para atraer y convertir visitantes en clientes.</p>
+          </div>
+          <div className="bg-[#2f3641] p-6 rounded-xl shadow hover:shadow-lg transition">
+            <h4 className="text-xl font-semibold mb-2">Sistemas a Medida</h4>
+            <p className="text-gray-300">Desarrollo de sistemas internos para automatizar procesos y ahorrar tiempo.</p>
+          </div>
+          <div className="bg-[#2f3641] p-6 rounded-xl shadow hover:shadow-lg transition">
+            <h4 className="text-xl font-semibold mb-2">Integraciones</h4>
+            <p className="text-gray-300">Conexión con WhatsApp, CRM, pasarelas de pago y más.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* PROYECTOS */}
+      <section id="projects" className="px-6 md:px-16 py-16">
+        <h3 className="flex items-center text-xl md:text-2xl mb-8">
+          <ColoredHash />Casos de Éxito <ColoredLine color={'#00D1FF'} />
+        </h3>
+        <ProjectsList list={Projects} />
+      </section>
+
+      {/* CONTACTO */}
+      <section id="contact" className="bg-[#202630] px-6 md:px-16 py-16">
+        <h3 className="flex items-center text-xl md:text-2xl mb-6">
+          <ColoredHash />Contacto <ColoredLine color={'#00D1FF'} />
+        </h3>
+        <p className="text-gray-400 mb-6 max-w-xl">
+          Cuéntame tu idea y te responderé en menos de 24 horas.
+          Estoy disponible por WhatsApp, Telegram o correo electrónico.
+        </p>
+        <Contact />
+      </section>
+      <Footer />
     </main>
   )
 }
