@@ -99,7 +99,7 @@ export default function Home() {
       {/* PROYECTOS */}
       <section id="projects" className="px-6 md:px-16 py-16">
         <h3 className="flex items-center text-xl md:text-2xl mb-8">
-          <ColoredHash />Casos de Éxito <ColoredLine color={'#00D1FF'} />
+          <ColoredHash />Proyectos <ColoredLine color={'#00D1FF'} />
         </h3>
         <ProjectsList list={Projects} />
       </section>
