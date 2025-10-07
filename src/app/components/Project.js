@@ -11,7 +11,6 @@ const Project = ({image, name, description, technologies, link}) => {
         <div className='px-4 py-2 '>
           <h2 className='text-lg my-2 font-semibold'>{name}</h2>
           <p className='my-1 text-sm'>{description}</p>
-          <p className='mt-3 text-gray-300 text-ms'>{technologies}</p>
         </div>
 
       </div>
