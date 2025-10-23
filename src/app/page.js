@@ -36,7 +36,7 @@ export default function Home() {
     {
       name: 'Xtrene Shop',
       description: 'Prototipo de tienda urbana en línea con diseño atractivo.',
-      img: 'https://postimg.cc/rDQPhgR4',
+      img: 'https://i.postimg.cc/fbNQRrw8/xtrene-shop-urban-vibe-lovable-app.png',
       technologies: 'Next.js, TailwindCSS',
       link: 'https://xtrene-shop-urban-vibe.lovable.app/'
     },
