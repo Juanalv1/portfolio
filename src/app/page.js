@@ -34,6 +34,13 @@ export default function Home() {
       link: 'https://landing-page-9vwjybuht-juanalv1.vercel.app/'
     },
     {
+      name: 'Xtrene Shop',
+      description: 'Prototipo de tienda urbana en línea con diseño atractivo.',
+      img: 'https://postimg.cc/rDQPhgR4',
+      technologies: 'Next.js, TailwindCSS',
+      link: 'https://xtrene-shop-urban-vibe.lovable.app/'
+    },
+    {
       name: 'Monito - Tienda de Mascotas',
       description: 'Demo de tienda online para mascotas con diseño atractivo y responsivo.',
       img: 'https://i.ibb.co/xCpBQW0/localhost-3000.png',
